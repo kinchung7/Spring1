@@ -1,0 +1,4 @@
+# 项目排除路径
+/spring_ioc/target/
+/spring_ioc_anno/target/
+/spring_mvc/target/
