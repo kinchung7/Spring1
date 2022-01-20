@@ -6,6 +6,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class UserController {
+     @RequestMapping(value = "/quick2")
+    public String save2(){
+        System.out.println("pull running...");
+        return "success.jsp";
+    }
+    
     @RequestMapping(value = "/quick1")
     public String save1(){
         System.out.println("UserController running...");
